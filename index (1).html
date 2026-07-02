@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magyar Kreatív Művek</title>
+<meta name="description" content="Újgenerációs szövegíró és kreatív praxis Búzás Balázstól. Pontos, hatásos szavak olyan vezetőknek és csapatoknak, akik maradandót alkotnak.">
+
+<!-- ============================================================
+     A SZÖVEG SZERKESZTÉSE
+     A teljes szöveg ebben a fájlban van, közvetlenül olvasható.
+     Csak a <h2>, <h3>, <p>, <strong>, <blockquote> címkék KÖZÖTTI
+     szöveget írd át. A címkéket, a class="..." / style="..."
+     részeket és a linkeket (href="...") hagyd érintetlenül.
+
+     Foglalási link, e-mail, telefon, Substack: keresd lent a
+     href="..." részeket (07-es szakasz és a 06-os Substack link).
+     ============================================================ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  body { font-family: 'EB Garamond', Georgia, serif; color: #26261f; }
+  ::selection { background: #6c6f3e; color: #fff; }
+  a { color: inherit; }
+  img { max-width: 100%; }
+
+  .page { min-height: 100vh; background: #ffffff; padding: 80px 32px 120px; }
+  .wrap { max-width: 680px; margin: 0 auto; }
+
+  header.site { text-align: center; margin: 0 0 56px; padding-bottom: 44px; border-bottom: 2px solid #6c6f3e; }
+  header.site img { width: 190px; height: auto; display: inline-block; }
+
+  /* Számozott szakaszok — a szám (01, 02…) baseline-ban a címsorral */
+  section.block { display: grid; grid-template-columns: 56px 1fr; gap: 28px; align-items: baseline; padding: 44px 0; border-top: 1px solid rgba(108,111,62,.28); }
+  section.block:first-of-type { border-top: none; padding: 4px 0 48px; }
+  section.block .num { font-size: 16px; color: #6c6f3e; }
+  section.block h2 { font-size: 21px; font-weight: 600; margin: 0 0 18px; line-height: 1.3; color: #26261f; }
+  section.block h3 { font-size: 19px; font-weight: 600; margin: 0 0 8px; line-height: 1.35; color: #26261f; }
+  section.block p { font-size: 19px; line-height: 1.66; margin: 0 0 16px; color: #3a3a31; text-wrap: pretty; }
+  section.block p:last-child { margin-bottom: 0; }
+
+  section.block p.intro { font-size: 23px; line-height: 1.5; font-weight: 500; color: #26261f; margin: 0 0 18px; }
+  section.block p.name { font-size: 19px; font-style: italic; color: #6c6f3e; margin: 0 0 26px; line-height: 1.4; text-align: center; }
+  .portrait { width: 100%; height: auto; display: block; border-radius: 2px; margin: 0 0 22px; }
+
+  /* 03 — szolgáltatások */
+  section.block .service { margin: 0 0 32px; }
+  section.block .service:last-child { margin: 0; }
+  section.block .service h3 { font-size: 20px; margin: 0 0 10px; }
+  .no { color: #6c6f3e; }
+  .sub { font-weight: 400; font-style: italic; color: #8a8678; }
+  section.block .sublist { display: flex; flex-direction: column; gap: 14px; margin-top: 16px; padding-left: 20px; border-left: 2px solid rgba(108,111,62,.28); }
+
+  /* 04 — referenciák */
+  section.block .exp-list { display: flex; flex-direction: column; gap: 30px; }
+  section.block .exp h3 { font-size: 19px; margin: 0 0 14px; }
+  .co { font-weight: 400; color: #8a8678; }
+  section.block .items { display: flex; flex-direction: column; gap: 12px; padding-left: 20px; border-left: 2px solid rgba(108,111,62,.28); }
+
+  section.block .items p, section.block .sublist p { font-size: 18px; line-height: 1.6; margin: 0; color: #3a3a31; text-wrap: pretty; }
+  section.block .items strong, section.block .sublist strong { font-weight: 600; color: #26261f; }
+
+  /* 05 — vélemények */
+  .quotes { display: flex; flex-direction: column; gap: 22px; }
+  .quotes blockquote { margin: 0; padding: 0 0 0 22px; border-left: 2px solid rgba(108,111,62,.45); font-size: 19px; line-height: 1.6; color: #3a3a31; text-wrap: pretty; }
+
+  a.inline { color: #6c6f3e; text-decoration: underline; text-underline-offset: 3px; }
+
+  /* 07 — kapcsolat */
+  .button { display: inline-block; background: #6c6f3e; color: #f4f3ea; font-size: 19px; font-weight: 600; padding: 14px 38px; border-radius: 2px; text-decoration: none; margin: 0 0 26px; }
+  .contact { display: flex; flex-direction: column; gap: 8px; font-size: 19px; }
+  .contact a.mail { color: #6c6f3e; text-decoration: underline; text-underline-offset: 3px; align-self: flex-start; }
+  .contact a.tel { color: #3a3a31; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="wrap">
+
+    <header class="site">
+      <img src="logo/magyar-kreativ-muvek-logo-olive.png" alt="Magyar Kreatív Művek">
+    </header>
+
+    <!-- 01. Mi a Magyar Kreatív Művek? -->
+    <section class="block">
+      <div class="num">01</div>
+      <div>
+        <h2>Mi a Magyar Kreatív Művek?</h2>
+        <p class="intro">Újgenerációs szövegíró és kreatív praxis Búzás Balázstól.</p>
+        <p>A történetmesélést, az alapos kutatómunkát és a stratégiai szemléletet ötvözve öntöm hatásos szavakba és kreatív projektekbe olyan vezetőknek és csapatoknak az üzenetét, akik maradandót alkotnak.</p>
+      </div>
+    </section>
+
+    <!-- 02. Ki van a Magyar Kreatív Művek mögött? -->
+    <section class="block">
+      <div class="num">02</div>
+      <div>
+        <h2>Ki van a Magyar Kreatív Művek mögött?</h2>
+        <img class="portrait" src="uploads/balazs-portrait.png" alt="Búzás Balázs">
+        <p class="name">Búzás Balázs</p>
+        <p>Írtam már európai parlamenti programot és egy cégépítő vállalatcsoport új üzletágának teljes koncepcióját, a narratív stratégiától a honlapszövegig. Korábban menedzsment-tanácsadóként dolgoztam Zürichben és Budapesten, majd az Ipsilon Group üzletfejlesztéséért feleltem.</p>
+        <p>Az Új Paradigma hírlevelemet, amelyben a digitális környezetről és az AI-ról gondolkodtam, vállalkozók, nagyvállalati vezetők és médiaipari döntéshozók olvasták.</p>
+        <p>Volt egy időszaka az életemnek, amikor egyszerre jártam Európa egyik vezető pénzügyi mesterképzésére és filozófia alapszakra. Értem az üzlet és számok nyelvét is, de a szavakat választottam hivatásul.</p>
+      </div>
+    </section>
+
+    <!-- 03. Milyen szolgáltatásaim vannak? -->
+    <section class="block">
+      <div class="num">03</div>
+      <div>
+        <h2 style="margin-bottom:26px;">Milyen szolgáltatásaim vannak?</h2>
+
+        <div class="service">
+          <h3><span class="no">1.</span> Narratív stratégia <span class="sub">— az alapozás</span></h3>
+          <p>Segítek kidolgozni azt a központi történetet, amely tisztázza: mit építesz, kinek, és miért számít igazán. Kapsz egy világos gondolkodási és kommunikációs keretrendszert, amely rendet tesz abban, hogyan beszél a szervezeted önmagáról. Gondoskodom róla, hogy ez az alapnarratíva következetesen jelenjen meg mindenhol a weboldaltól a prezentációkon át a hírlevélig és posztokig.</p>
+        </div>
+
+        <div class="service">
+          <h3><span class="no">2.</span> Szerzői szövegírás <span class="sub">— a megvalósítás</span></h3>
+          <p style="margin-bottom:4px;">Ha az alapok már stabilak, az üzenetet hatásos szavakba öntöm. Nem futószalagon gyártok kontentet, hanem szerkesztői szemlélettel alkotok:</p>
+          <div class="sublist">
+            <p><strong>Hírlevél:</strong> Megtervezzük a koncepciót, a nézőpontot és a formátumot, én pedig folyamatosan írom a leveleket – olyanokat, amiket a célközönséged meg akar nyitni, és valós hatást érnek el.</p>
+            <p><strong>Közösségi média:</strong> A vizuális és AI-zajban a tiszta, okos és stratégiailag felépített szövegekre fókuszálok, amelyek építik a szakmai tekintélyed.</p>
+            <p><strong>Üzleti szövegek:</strong> Vállalati esszék, véleménycikkek, vagy épp befektetői prezentációk (pitch deckek) megírása, ahol a tét és az elvárás is magas.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <h3><span class="no">3.</span> Narratív vezetés <span class="sub">— folyamatos partnerség</span></h3>
+          <p>Törtidőben csatlakozom a szervezetedhez. Olyan, mintha lenne egy saját főszerkesztőd: vezetői felelősséggel gondoskodom arról, hogy minden felületen a kidolgozott stratégia mentén legyetek jelen. Az én dolgom, hogy a történeted mindig jól legyen megírva, és a megfelelő emberek figyeljenek rá, miközben te a cégépítésre fókuszálhatsz.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. Hol bizonyítottam már korábban? -->
+    <section class="block">
+      <div class="num">04</div>
+      <div>
+        <h2 style="margin-bottom:26px;">Hol bizonyítottam már korábban?</h2>
+        <div class="exp-list">
+
+          <div class="exp">
+            <h3>Ipsilon Group <span class="co">— Üzletfejlesztési vezető</span></h3>
+            <div class="items">
+              <p><strong>Stratégiai jövőkutatás az MVM számára:</strong> Az MVM innovációs csapata számára egy többhónapos projekt során a stratégiai jövőkutatás módszertanát használva jövőbeli forgatókönyveket írtunk, így támogatva a jövőálló üzleti döntések meghozatalát.</p>
+              <p><strong>Új termék narratív tervezése és bevezetése a Tropicarium számára:</strong> A Tropicarium egy új jegytípust vezetett be, aminek mi alkottuk meg a nevét, a narratív koncepcióját, és végig támogattuk a bevezető kampányt.</p>
+              <p><strong>Új üzletág narratív tervezése és bevezetése az Ipsilon Group számára:</strong> Az Ipsilon Group cégépítő vállalatcsoport számára a vezetésemmel megfogalmaztuk az új üzletág lényegét. Én feleltem a honlapszövegezéstől a hirdetéseken át az értékesítési szövegek megírásáig, valamint rádiós és írott interjúkban képviseltem az üzeneteket.</p>
+            </div>
+          </div>
+
+          <div class="exp">
+            <h3>Egypakli <span class="co">— Kreatív producer és műsorvezető</span></h3>
+            <div class="items">
+              <p><strong>Koncepcióalkotás és megvalósítás:</strong> Társműsorvezetőként és szerkesztőként a koncepció kialakításától az élő műsorok rendezésén át a promócióig felelek a projektért.</p>
+            </div>
+          </div>
+
+          <div class="exp">
+            <h3>Új Paradigma hírlevél <span class="co">— Alapító és szerző</span></h3>
+            <div class="items">
+              <p><strong>Szerzői hírlevélírás és tartalomstratégia:</strong> Saját hírlevelet indítottam, ahol a digitális paradigma és az AI társadalmi hatásait elemzem.</p>
+              <p><strong>Közönségépítés:</strong> A hírlevél egy év alatt 30 000+ megtekintést ért el, többszáz feliratkozója között nagyvállalati vezetők, politikai döntéshozók és ismert vállalkozók voltak. A publikációk révén a Partizán Podcast vendégeként is szerepeltem.</p>
+            </div>
+          </div>
+
+          <div class="exp">
+            <h3>Második Reformkor Párt <span class="co">— Szakmai igazgató</span></h3>
+            <div class="items">
+              <p><strong>Európai Parlamenti program narratívája és megírása:</strong> Én feleltem a párt EP-programjának megírásáért, a koncepcióalkotástól kezdve a szerkesztésen át a végső szövegezésig.</p>
+              <p><strong>Szakmai és kommunikációs vezetés:</strong> Egy 30 fős csapat vezetőjeként a teljes szakmai programalkotásért és az ahhoz kapcsolódó kommunikációért feleltem.</p>
+              <p><strong>A történet képviselete:</strong> A kidolgozott szakmai programot és narratívát személyesen képviseltem különböző rendezvényeken, podcast adásokban és televíziós műsorokban.</p>
+            </div>
+          </div>
+
+          <div class="exp">
+            <h3>Kearney &amp; Roland Berger <span class="co">— Tanácsadói és elemzői tapasztalat</span></h3>
+            <div class="items">
+              <p><strong>Adatok narratívába öntése:</strong> Nemzetközi ügyfelek (pl. egy közel-keleti elektronikai vállalat, egy svájci logisztikai cég) számára végeztem kutatásokat.</p>
+            </div>
+          </div>
+
+          <div class="exp">
+            <h3>British American Tobacco <span class="co">— Kommunikációs gyakornok</span></h3>
+            <div class="items">
+              <p><strong>Vállalati szövegírás és koncepció:</strong> Én feleltem az új vállalati honlapunk teljes kommunikációs koncepciójáért és a weboldal szövegírásáért.</p>
+              <p><strong>Menedzsment támogatása:</strong> Aktívan támogattam a média- és kormányzati kapcsolatok menedzselését egy gyármegnyitó esemény kapcsán.</p>
+            </div>
+          </div>
+
+          <div class="exp">
+            <h3>Unilever <span class="co">— Marketing gyakornok</span></h3>
+            <div class="items">
+              <p><strong>Termékbevezetés:</strong> Részt vettem három új Baba termék bevezetésének koncepcióalkotásában és a hozzájuk kapcsolódó szövegírásban.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 05. Mit mondanak azok, akik korábban dolgoztak velem? -->
+    <section class="block">
+      <div class="num">05</div>
+      <div>
+        <h2 style="margin-bottom:26px;">Mit mondanak azok, akik korábban dolgoztak velem?</h2>
+        <div class="quotes">
+          <blockquote>„Balázs felelőssége volt, hogy mindig új gondolatokkal lásson el.”</blockquote>
+          <blockquote>„Az elején nem akartam a szavakért sokat fizetni, ma már a ChatGPT is tud szöveget generálni. Amikor elkészült az új termék koncepciója, akkor megértettem, hogy ez miért fontos. Azóta azt veszem észre, hogy az ügyfeleim is azokon az új szavakon beszélnek, amit Balázsék írtak.”</blockquote>
+          <blockquote>„Olyan a közös munka, mintha lenne egy belső filozófusa a cégünknek, aki érti az üzlet nyelvét is.”</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06. Miért csinálom? -->
+    <section class="block">
+      <div class="num">06</div>
+      <div>
+        <h2>Miért csinálom?</h2>
+        <p>A digitális kor lebontja a megszokott intézményeket és együttműködési formákat, de újakat még alig hoztunk létre. Azt gondolom, hogy a maradandó alkotáshoz — legyen az termék, márka vagy bármilyen alkotás — előbb tisztán kell látni és pontosan kell fogalmazni. Ezzel kezdődik minden.</p>
+        <p>Ha bővebben is érdekel a gondolkodásom, látogass el a <a class="inline" href="https://buzasbalazs.substack.com/" target="_blank" rel="noopener">Substack oldalamra</a>.</p>
+      </div>
+    </section>
+
+    <!-- 07. Hogyan tudjuk elkezdeni a közös munkát? -->
+    <section class="block">
+      <div class="num">07</div>
+      <div>
+        <h2>Hogyan tudjuk elkezdeni a közös munkát?</h2>
+        <p style="margin-bottom:24px;">Foglalj egy ingyenes 30 perces konzultációt, vagy keress közvetlenül:</p>
+        <a class="button" href="https://cal.com/hallotessekbuzas" target="_blank" rel="noopener">Foglalok</a>
+        <div class="contact">
+          <a class="mail" href="/cdn-cgi/l/email-protection#c1a3a0ada0bbb281aca0a6b8a0b3aab3a4a0b5a8b7acb4b7a4aaefa9b4"><span class="__cf_email__" data-cfemail="85e7e4e9e4fff6c5e8e4e2fce4f7eef7e0e4f1ecf3e8f0f3e0eeabedf0">[email&#160;protected]</span></a>
+          <a class="tel" href="tel:+36302493890">+36 30 249 3890</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
